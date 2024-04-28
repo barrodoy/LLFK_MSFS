@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>OS73 removal</Title>
+		<Manufacturer>Israeli Flight Sim Developers</Manufacturer>
+		<Creator>ifsd</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\ifsd-airport-os73-al-al\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\ifsd-airport-os73-al-al</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="scenery">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\\sceneries</AssetDir>
+			<OutputDir>scenery\ifsd\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
