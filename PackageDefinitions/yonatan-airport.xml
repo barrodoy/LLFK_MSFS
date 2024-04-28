@@ -1,0 +1,31 @@
+<AssetPackage Name="yonatan-airport" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>yonatan</Title>
+		<Manufacturer/>
+		<Creator>nivtesler</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\yonatan-airport\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\yonatan-airport\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="Yonatan">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>C:\Users\nivte\OneDrive\Desktop\Yonatan\PackageSources\data\</AssetDir>
+			<OutputDir>scenery\mycompany\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

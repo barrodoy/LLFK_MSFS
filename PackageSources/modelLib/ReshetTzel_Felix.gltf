@@ -1,0 +1,274 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    },
+    {
+      "name": "node2",
+      "mesh": 1
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "part001"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2368,
+      "type": "VEC3",
+      "min": [
+        -2.6818877878160641E-15,
+        0.02239999920129776,
+        -0.15000000596046448
+      ],
+      "max": [
+        28.299999237060547,
+        5.0262899398803711,
+        21.899999618530273
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2368,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2368,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 3888,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28416,
+      "componentType": 5126,
+      "count": 4500,
+      "type": "VEC3",
+      "min": [
+        1.1000000238418579,
+        4.4797401428222656,
+        1.3470670686139538E-16
+      ],
+      "max": [
+        27.829990386962891,
+        4.8762898445129395,
+        20.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 28416,
+      "componentType": 5126,
+      "count": 4500,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 18944,
+      "componentType": 5126,
+      "count": 4500,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15552,
+      "componentType": 5125,
+      "count": 4536,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "ALUMINIUM",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "occlusionTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "name": "SHADING",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "occlusionTexture": {
+        "index": 3
+      },
+      "alphaMode": "BLEND",
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "aluminium"
+    },
+    {
+      "source": 1,
+      "name": "aluminium_comp"
+    },
+    {
+      "source": 2,
+      "name": "shading"
+    },
+    {
+      "source": 3,
+      "name": "shading_comp"
+    }
+  ],
+  "images": [
+    {
+      "uri": "aluminium.png"
+    },
+    {
+      "uri": "aluminium_comp.png"
+    },
+    {
+      "uri": "shading.png"
+    },
+    {
+      "uri": "shading_comp.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 33696
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33696,
+      "byteLength": 82416,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 116112,
+      "byteLength": 82416,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 198528,
+      "byteLength": 54944,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 253472,
+      "uri": "ReshetTzel_Felix.bin"
+    }
+  ]
+}

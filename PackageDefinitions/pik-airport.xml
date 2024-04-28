@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Fiq</Title>
+		<Manufacturer>Israeli Flight Sim Developers</Manufacturer>
+		<Creator>Bar Rodoy and Niv Tesler</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="AirportServices">
+			<Type>Service</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\AirportServices\</AssetDir>
+			<OutputDir>AirportServices\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\pik-airport\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\ifsd-llfk\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="objects">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\modelLib\</AssetDir>
+			<OutputDir>scenery\ifsd-llfk\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="pik">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\data\</AssetDir>
+			<OutputDir>scenery\ifsd-llfk\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
